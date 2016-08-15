@@ -1,0 +1,26 @@
+{
+  "name": "orangebox",
+  "version": "1.0.0",
+  "description": "descripción",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jestrade/orangebox/"
+  },
+  "keywords": [
+    "html"
+  ],
+  "author": "jestrade",
+  "license": "ISC",
+  "devDependencies": {
+    "del": "^2.2.1",
+    "gulp": "^3.9.1",
+    "gulp-cache": "^0.4.5",
+    "gulp-dest": "^0.2.3",
+    "gulp-imagemin": "^3.0.2",
+    "gulp-sass": "^2.3.2"
+  }
+}
