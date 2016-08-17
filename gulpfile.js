@@ -12,9 +12,9 @@ gulp.task('build',['clean','sass','images'],function(){
 });
 
 gulp.task('sass', function () {
-  return gulp.src('src/sass/**/*.scss')
-    .pipe(sass({outputStyle:'compressed'}))
-    .pipe(gulp.dest('dist/css'));
+  return gulp.src('src/sass/**/*.scss') 
+  .pipe(sass({includePaths: require('node-normalize-scss').includePaths}))
+  .pipe(gulp.dest('dist/css'));
 });
  
  gulp.task('images', function(){
